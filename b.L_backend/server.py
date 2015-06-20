@@ -466,9 +466,7 @@ class App:
                     max(self.settings['frequency_table_A7']),
                     min(self.settings['frequency_table_A15']), 
                     max(self.settings['frequency_table_A15'])
-                )
-
-
+                ),
                 shell=True,
                 stdout=sp.PIPE,
                 stderr=sp.PIPE
